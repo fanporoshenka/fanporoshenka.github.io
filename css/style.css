@@ -1,0 +1,41 @@
+html, body	{
+	height:  100%;
+}
+,
+*:before,
+*:after {
+	box-sizing: content-box;
+}
+.header	{
+	text-align: center;
+	font-size: 1.2pc;
+}
+.body	{
+    margin: 0;
+    margin-left: 5%;
+    font-size: 1.2pc;
+}
+
+.page	{
+	margin-left: 3%;
+	margin-right: 3%;
+	word-wrap: normal;
+	overflow: auto;
+	display: flex;
+	flex-direction: column;
+	font-size: 1.5pc;
+	max-height: 100%;
+}
+.footer	{
+	padding: 20px;
+	margin-top:  max;
+	text-align: right;
+	font-size: 1.2pc;
+}
+.video
+{
+	justify-content: center;
+    display: block;
+	margin: 0 auto;
+	text-align: center;
+}
